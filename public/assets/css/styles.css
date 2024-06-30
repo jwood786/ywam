@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f;  /* Dark navy blue background */
+    color: white;  /* Default text color to white for better contrast */
+  }
+  
+  header {
+    background-color: #001f3f;  /* Dark navy blue background */
+    color: white;
+    padding: 10px 0;
+    border-bottom: 3px solid #ff4136;  /* Red accent */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;  /* Ensure items do not wrap to the next line */
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;  /* Ensure text does not wrap */
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff4136;  /* Red accent on hover */
+  }
+  
+  .language-toggle {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .language-toggle:hover {
+    background-color: #ff4136;  /* Red accent on hover */
+  }
+  
+  footer {
+    background-color: #001f3f;  /* Dark navy blue background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 3px solid #ff4136;  /* Red accent */
+  }
+  
+  .video-banner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Additional styles for content */
+  .main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
