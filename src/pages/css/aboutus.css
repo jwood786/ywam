@@ -1,0 +1,48 @@
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom:10%;
+  }
+  
+  .about-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .about-us-brief {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .leadership-staff-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leadership-staff-list li {
+    margin-bottom: 10px;
+  }
+  
+  .staff-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .volunteer-staff-list {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+  
+  .about-us-details {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  

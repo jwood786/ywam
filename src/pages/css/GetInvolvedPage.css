@@ -1,0 +1,33 @@
+.get-involved-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .get-involved-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .get-involved-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .get-involved-sections {
+    margin-top: 20px;
+  }
+  
+  .get-involved-sections .section {
+    margin-bottom: 20px;
+  }
+  
+  .get-involved-sections .section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .get-involved-sections .section p {
+    font-size: 1.1em;
+  }
+  

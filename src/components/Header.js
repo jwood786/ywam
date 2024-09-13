@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
 const Header = () => {
   const { language, toggleLanguage, translations } = useLanguage();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <header>
       <div className="container">
         <nav>
-          <ul>
+          <button className="menu-toggle" onClick={handleMenuToggle}>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </button>
+          <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
             <li><Link to="/">{translations.home}</Link></li>
             <li><Link to="/about-us">{translations.aboutUs}</Link></li>
             <li><Link to="/our-ministries">{translations.ourMinistries}</Link></li>
@@ -28,6 +38,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

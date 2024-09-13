@@ -1,0 +1,88 @@
+/* DonatePage.css */
+.donate-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.image-layout {
+  flex: 1 1;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.main-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.side-images {
+  flex: 1 1;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.side-images img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

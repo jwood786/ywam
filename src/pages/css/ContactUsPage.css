@@ -1,0 +1,172 @@
+/* ContactUsPage.css */
+.contact-us-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Ensure the container has relative positioning */
+.hero-section {
+  text-align: center;
+margin-bottom: 40px;
+padding:40px 0px;
+  position: relative;
+  overflow: hidden; /* Optional: hides any overflow from the pseudo-element */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/public/hero-background.jpg') no-repeat center center/cover;
+  opacity: 0.5; /* Adjust opacity here */
+  z-index: -1; /* Ensure it’s behind the content */
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Form */
+.contact-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  color:#000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  color:#000;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Information */
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+}
+
+.map iframe {
+  border: 0;
+  border-radius: 8px;
+}
+
+/* Social Media Links */
+.social-media {
+  margin-bottom: 40px;
+}
+
+.social-media h2 {
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 0 10px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f9f9f9;
+  color:#000;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.faq-section h2 {
+  margin-bottom: 15px;
+}
+
+.faq-items {
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+}

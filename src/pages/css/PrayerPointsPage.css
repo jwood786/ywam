@@ -1,0 +1,26 @@
+.prayer-points-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .prayer-points-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .prayer-points-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .prayer-points-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .prayer-points-list li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  

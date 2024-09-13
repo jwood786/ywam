@@ -1,0 +1,60 @@
+.ministries-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ministry {
+  margin-bottom: 40px;
+}
+
+.ministry h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ministry p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.ministry ul {
+  padding: 0;
+}
+
+.ministry ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  margin-left:20px;
+}
+
+.ministry ul li strong {
+  font-weight: bold;
+}
+
+.enrollment-form {
+  background-color: #22354b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.enrollment-form p {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.enrollment-form ul {
+  padding: 0;
+}
+
+.enrollment-form ul li {
+  margin-bottom: 10px;
+  margin-left:20px;
+}
+
+.enrollment-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}

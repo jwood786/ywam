@@ -1,0 +1,44 @@
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+  .intro-section {
+    margin-bottom: 40px;
+  }
+
+  
+  .values-section {
+    margin-bottom: 40px;
+  }
+  
+  .values-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;  /* Default text color to white for better contrast */
+  }
+  
+  .values-section .values-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values-section .values-list li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;  /* Default text color to white for better contrast */
+    padding:10px 0px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+  
+    .values-section h2 {
+      font-size: 1.8rem;
+    }
+  
+    .values-section .values-list li {
+      font-size: 1rem;
+    }
+  }
+  
